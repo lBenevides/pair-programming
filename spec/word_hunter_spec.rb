@@ -5,6 +5,7 @@ describe 'WordHunter' do
     matrix = [['B', 'U', 'G'],
               ['J', 'U', 'S'],
               ['N', 'G', 'S']]
-    words = 'BUG'
+  words = ["BUG", "JUS"]
+    expect(WordHunter.find(matrix, words)).to eq(words)
   end
 end
