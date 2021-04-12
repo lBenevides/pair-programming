@@ -10,8 +10,3 @@ class WordHunter
   end
 end
 
-matriz[0][1]
-matrix = [['B', 'U', 'G'],
-          ['J', 'U', 'S'],
-          ['N', 'G', 'S']]
-
